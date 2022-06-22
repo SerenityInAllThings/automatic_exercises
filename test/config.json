@@ -1,0 +1,29 @@
+{
+  "project": {
+    "name": "manzano_exercises",
+    "baseFolderName": "list",
+    "chapterPrefix": "chapter_",
+    "exerciseIdPrefix": "ex_"
+  },
+  "chapters": [
+    {
+      "name": "3",
+      "topics": [
+        {
+          "name": "9",
+          "exercises": {
+            "1": [ "1a", "1b", "1c", "1d", "1e", "1f" ],
+            "7": [ "7a", "7b", "7c", "7d", "7e", "7f", "7g", "7h", "7i", "7j", "7k", "7l", "7m" ]
+          }
+        },
+        {
+          "name": "10",
+          "exercises": {
+            "1": [ "1a", "1b", "1c"]
+          }
+        }
+      ]
+    }
+  ],
+  "destination": "manzano_exercises"
+}
