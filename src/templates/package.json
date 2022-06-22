@@ -1,0 +1,17 @@
+{
+  "name": "{{projectName}}",
+  "version": "1.0.0",
+  "description": "Created using Automatic Exercises c:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "SerenityInAllThings",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
