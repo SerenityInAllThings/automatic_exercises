@@ -15,6 +15,7 @@ const getConfigurationFile = (config) => {
         throw new Error(`Configuration file '${configPath}' not found`)
       else if (err instanceof SyntaxError)
         throw new Error(`Configuration file needs to be JSON formatted file`)
+      throw err
     }
 }
 

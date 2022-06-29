@@ -8,18 +8,181 @@
   "chapters": [
     {
       "name": "3",
+      "description": "Data types and Primitive instructions",
       "topics": [
         {
           "name": "9",
           "exercises": {
-            "1": [ "1a", "1b", "1c", "1d", "1e", "1f" ],
-            "7": [ "7a", "7b", "7c", "7d", "7e", "7f", "7g", "7h", "7i", "7j", "7k", "7l", "7m" ]
+            "1": [ "a", "b", "c", "d", "e", "f" ],
+            "7": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m" ]
           }
         },
         {
           "name": "10",
           "exercises": {
-            "1": [ "1a", "1b", "1c"]
+            "1": [ "a", "b", "c"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "description": "Decision Making",
+      "topics": [
+        {
+          "name": "7",
+          "exercises": {
+            "4": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "description": "Loops",
+      "topics": [
+        {
+          "name": "1.1",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l" ]
+          }
+        },
+        {
+          "name": "6.1",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "description": "Homogeneous data structures",
+      "topics": [
+        {
+          "name": "4",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" ]
+          }
+        },
+        {
+          "name": "5",
+          "exercises": {
+            "1": [ "a", "b", "c", "d" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "description": "Applications for Matrices",
+      "topics": [
+        {
+          "name": "4",
+          "exercises": {
+            "1": [ "a", "b", "c" ]
+          }
+        },
+        {
+          "name": "5",
+          "exercises": {
+            "1": [ "a", "b", "c", "d" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "8",
+      "description": "Homogeneous data structures II",
+      "topics": [
+        {
+          "name": "4",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e", "f", "g", "h", "i" ]
+          }
+        },
+        {
+          "name": "5",
+          "exercises": {
+            "1": [ "a", "b", "c", "d" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "9",
+      "description": "Heterogeneous data structures",
+      "topics": [
+        {
+          "name": "5",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e" ],
+            "2": [ "a", "b", "c", "d" ],
+            "3": [ "a", "b", "c", "d", "e", "f" ],
+            "4": [ "a", "b", "c", "d", "e", "f" ]
+          }
+        },
+        {
+          "name": "6",
+          "exercises": {
+            "1": [ "1" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "11",
+      "description": "Subroutines",
+      "topics": [
+        {
+          "name": "4",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e" ],
+            "2": [ "a", "b", "c", "d" ],
+            "3": [ "a", "b", "c", "d", "e", "f" ],
+            "4": [ "a", "b", "c", "d", "e", "f" ]
+          }
+        },
+        {
+          "name": "6",
+          "exercises": {
+            "1": [ "1" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "12",
+      "description": "Using parameters",
+      "topics": [
+        {
+          "name": "4",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" ]
+          }
+        },
+        {
+          "name": "5",
+          "exercises": {
+            "1": [ "a", "b", "c", "d" ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "13",
+      "description": "Functions",
+      "topics": [
+        {
+          "name": "4",
+          "exercises": {
+            "1": [ "a", "b", "c", "d", "e", "f"  ]
+          }
+        },
+        {
+          "name": "5",
+          "exercises": {
+            "1": [ "a", "b", "c" ]
           }
         }
       ]

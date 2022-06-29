@@ -19,7 +19,7 @@ const generate = async (configPath) => {
     exerciseIdPrefix
   }, chapters } = getConfigurationFile()
 
-  const createChapter = async ({ name: chapterName, topics }) => {
+  const createChapter = async ({ name: chapterName, topics, description }) => {
     const chapterFolder = `${baseFolderName}/${chapterPrefix+chapterName}`
 
     const createTopic = async ({name: topicName, exercises}) => {
@@ -46,7 +46,7 @@ const generate = async (configPath) => {
 
     await makeDirectory(chapterFolder)
     const chapterFilesCreation = [
-      writeFile(`${chapterFolder}/README.md`, await getChapterReadMeFile(chapterName, topics)),
+      writeFile(`${chapterFolder}/README.md`, await getChapterReadMeFile(chapterName, topics, description)),
       ...topics.map(topic => createTopic(topic)),
     ]
 

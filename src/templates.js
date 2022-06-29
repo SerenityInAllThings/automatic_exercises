@@ -1,7 +1,6 @@
 const fs = require('fs')
 const path = require('path')
 const Handlebars = require("handlebars");
-const { builtinModules } = require('module');
 
 const readTemplate = (templateName) => {
   const templatePath = path.join(__dirname, 'templates', templateName)
@@ -24,8 +23,8 @@ const getJestConfigFile = () =>
 const getReadMeFile = (projectName, baseFolderName, chapterPrefix) =>
   fillTemplate('README.md', { projectName, baseFolderName, chapterPrefix })
 
-const getChapterReadMeFile = (name, topics) =>
-  fillTemplate('chapters/README.md', { name, topics })
+const getChapterReadMeFile = (name, topics, description = "") =>
+  fillTemplate('chapters/README.md', { name, topics, description })
 
 const getTopicReadMeFile = (name, exercises, chapterName) =>
   fillTemplate('chapters/topic/README.md', { name, exercises, chapterName })

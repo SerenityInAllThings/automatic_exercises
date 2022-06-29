@@ -1,5 +1,7 @@
 ## Chapter {{name}}
 
+{{description}}
+
 ### Topics
 
 {{#topics}}
